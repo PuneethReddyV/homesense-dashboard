@@ -20,3 +20,4 @@ Expose Lambda with API Gateway HTTP API at GET /readings and enable CORS.
 
 ## Public hosting
 Deploy this Vite/React app with AWS Amplify Hosting. Build: `npm run build`; output: `dist`.
+# homesense-dashboard
