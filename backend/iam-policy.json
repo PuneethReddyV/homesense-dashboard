@@ -1,0 +1,1 @@
+{"Version":"2012-10-17","Statement":[{"Effect":"Allow","Action":["dynamodb:Query"],"Resource":"arn:aws:dynamodb:us-east-1:<YOUR_ACCOUNT_ID>:table/HomeSenseReadings"}]}
