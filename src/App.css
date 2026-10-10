@@ -28,3 +28,74 @@
   outline: 2px solid #2563eb;
   outline-offset: 2px;
 }
+
+
+.comfort-assessment {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.comfort-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 12px rgb(0 0 0 / 8%);
+}
+
+.comfort-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.comfort-banner h2 {
+  margin: 0.5rem 0;
+  font-size: 1.6rem;
+}
+
+.comfort-banner p {
+  margin-bottom: 0;
+  max-width: 600px;
+}
+
+.comfort-reading {
+  display: grid;
+  gap: 0.2rem;
+  text-align: right;
+}
+
+.comfort-reading strong {
+  font-size: 1.4rem;
+}
+
+.comfort-reading span {
+  font-size: 0.8rem;
+}
+
+.resolution-card ul {
+  padding-left: 1.25rem;
+  line-height: 1.8;
+}
+
+.resolution-note {
+  font-size: 0.85rem;
+  opacity: 0.75;
+  border-top: 1px solid #cbd5e1;
+  padding-top: 0.75rem;
+}
+
+@media (max-width: 600px) {
+  .comfort-reading {
+    text-align: left;
+  }
+
+  .comfort-banner {
+    align-items: flex-start;
+  }
+}
+
